@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+<style>
+	body{
+		text-align: center;
+		background-color: lightgreen;
+	}
+	table{
+		margin-left: 750px;
+		margin-top: 20px;
+		background-color: orange;
+	}
+	h1{
+
+		color:black;
+	}
+</style>
+</head>
+<body>
+<h2>Calculator</h2>
+<input type="text" id="result" readonly>
+<table>
+	<tr>
+		<td><button onclick="Appendnumber(7)">7</button></td>
+		<td><button onclick="Appendnumber(8)">8</button></td>
+		<td><button onclick="Appendnumber(9)">9</button></td>
+		<td><button onclick="Setoperator('+')">+</button></td>
+	</tr>
+	<tr>
+		<td><button onclick="Appendnumber(4)">4</button></td>
+		<td><button onclick="Appendnumber(5)">5</button></td>
+		<td><button onclick="Appendnumber(6)">6</button></td>
+		<td><button onclick="Setoperator('-')">-</button></td>
+	</tr>
+	<tr>
+		<td><button onclick="Appendnumber(1)">1</button></td>
+		<td><button onclick="Appendnumber(2)">2</button></td>
+		<td><button onclick="Appendnumber(3)">3</button></td>
+		<td><button onclick="Setoperator('*')">*</button></td>
+	</tr>
+	<tr>
+		<td><button onclick="Appendnumber(0)">0</button></td>
+		<td><button onclick="clearresult('c')">c</button></td>
+		<td><button onclick="calculate('=')">=</button></td>
+		<td><button onclick="Setoperator('/')">/</button></td>
+	</tr>
+
+
+</table>
+
+</body>
+<script type="text/javascript" src="sravya.js">
+</script>
+</html>
